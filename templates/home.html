@@ -1,0 +1,91 @@
+{% extends "canvas.html" %}
+{% block title %}Lucas Maystre - papers, projects, code, etc.{% endblock %}
+{% block head %}
+  <!-- OpenID 1.x -->
+  <link rel="openid.server" href="http://www.myopenid.com/server" />
+  <link rel="openid.delegate" href="http://bengiuliano.myopenid.com/" />
+  
+  <!-- OpenID 2.0 -->
+  <link rel="openid2.provider" href="http://www.myopenid.com/server" />
+  <link rel="openid2.local_id" href="http://bengiuliano.myopenid.com/" />
+{% endblock %}
+{% block content %}
+  <div id="description">
+    <img src="/static/img/photo.jpg" alt="Lucas Maystre" />
+    <p>
+      <strong>Hi, I'm Lucas</strong>, a 1<sup>st</sup> year PhD student in
+      the School of Computer and Communication Sciences at <a
+      href="http://ic.epfl.ch">EPFL</a>. Currently I'm working on <span
+      class="interest">recommender systems</span>. Broadly speaking, my
+      interests revolve around <span class="interest">network science</span>
+      and <span class="interest">machine learning</span>.
+    </p>
+    <p>
+      I also <strong>enjoy coding</strong> and had the opportunity to intern
+      at <a href="http://goo.gl/fAjtl">Google</a> and <a
+      href="http://g.co/maps/u35h3">Facebook</a>. On week-ends, I'm a
+      football referee.
+    </p>
+    <div class="clear"></div>
+  </div>
+      
+  <!-- ======== News ======== -->
+  <p class="news">
+    <span class="date">2012-08-18</span>
+    The new version of this page is online, just in time for the start of
+    grad school.
+  </p>
+  <p class="news">
+    <span class="date">2012-07-11</span>
+    <strong>I just finished my master's thesis</strong> on a music recommender
+    system for groups: <a href="https://groupstreamer.com">GroupStreamer</a>.
+    An implementation for Android is available on
+    <a href="https://play.google.com/store/apps/details?id=ch.epfl.unison">
+    Google Play</a>. Check it out!
+  </p>
+
+
+  <h2>Projects &amp; Code</h2>
+
+  <p>
+    You can find a more or less comprehensive list of all my projects on
+    <a href="/projects">the dedicated page</a>. Hihglights include:
+  </p>
+
+  <ul>
+    <li><strong>GroupStreamer</strong> &mdash; a music recommender system for
+      groups of people.  Check out the <a
+      href="https://groupstreamer.com/">dedicated site</a> for more
+      information, including a poster.</li>
+    <li><strong>Phinishing Phishing</strong> &mdash; an extension for Firefox
+      that leverages search engines to prevent phishing attacks (preliminary
+      information available <a href="http://phinishphish.com">here</a>).</li>
+  </ul>
+
+  <p>
+    Generally speaking I try to share all the code related to the projects
+    I've worked on. The relevant repositories are often found on my
+    <a href="https://github.com/lucasmaystre">GitHub account</a>.
+  </p>
+
+  <h2>Elsewhere on the Web</h2>
+
+  <p>There are a few other places where you might find me at.</p>
+  <ul>
+    <li>I'm on <a href="https://www.facebook.com/lm">Facebook</a>. How
+      special.</li>
+    <li>On <a
+      href="https://github.com/lucasmaystre">GitHub</a> I even have a repo
+      for recipes.</li>
+    <li>Photography is one of my hobbies, and <a
+      href="http://flickr.com/photos/lucasmaystre/">I have some pics on
+      flickr</a>.</li>
+    <li>You can check out my <a
+      href="http://www.football.ch/fr/SFV/SFV-Service/Schiedsrichter/Recherche-darbitres.aspx/v-1191/sr-588481/">
+      referee assignments</a>.</li>
+    <li>Some <a href="https://pinboard.in/u:lum">bookmarks</a> of mine are
+      publicly available.</li>
+    <li>I used to hold a <a href="http://lum.posterous.com/">blog</a> about my
+      year at UC Berkeley</li>
+  </ul>
+{% endblock %}

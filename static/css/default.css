@@ -1,0 +1,110 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+div#container {
+  max-width: 900px;
+  padding: 0 0.5em;
+  margin: 0 auto;
+}
+
+div.clear {
+  clear: both;
+}
+
+p, li {
+  line-height: 1.6;
+}
+
+p {
+  margin: 1em 0;
+}
+
+h1, h2 {
+  font-family: 'Rokkitt', Georgia, serif;
+  font-weight: bold;
+}
+  
+
+h1 {
+  font-size: 3em;
+  margin-top: 0.5em;
+  /* Light-blue alternative: #99C3FF. */
+  border-bottom: 2px solid #FF6666;
+}
+
+h1 a:link, h1 a:active, h1 a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin: 1em 0 0.5em 0;
+  border-bottom: 1px solid #000;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2.5em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul#nav {
+  margin: 0.5em 0 0 0;
+  padding: 0;
+}
+
+ul#nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 1em;
+}
+
+header {
+  margin-bottom: 1.5em;
+}
+
+footer {
+  color: #666;
+  margin-top: 2em;
+}
+
+div#description {
+  margin-bottom: 2em;
+}
+
+div#description img {
+  float:left;
+  margin: 0 1em 0 0;
+}
+
+span.date {
+  border-radius: 3px;
+  padding: 3px 7px;
+  margin-right: 5px;
+  background-color: #FF6666;
+  border: 1px solid #B30000;
+  color: #660000;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+span.interest {
+  border-bottom: 1px solid #CFCFCF;
+  background-color: #EDEDED;
+  padding: 0 0.2em;
+}
+
+
