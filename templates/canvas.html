@@ -28,6 +28,9 @@
     <header class="hero-unit">
       <h1><a href="/">Lucas Maystre</a></h1>
       <ul id="nav">
+        {% if home_link %}
+        <li><a href="/">home</a></li>
+        {% endif %}
         <li><a href="/projects">projects</a></li>
         <li><a href="/static/resume.pdf">résumé</a></li>
         <li><a href="mailto:lucas@maystre.ch">e-mail</a></li>
