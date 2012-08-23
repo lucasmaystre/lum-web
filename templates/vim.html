@@ -1,0 +1,123 @@
+{% extends "canvas.html" %}
+{% block title %}Vim, starting from scratch - lucas.maystre.ch{% endblock %}
+{% block content %}
+
+<p><strong>Note</strong>: this article was written in 2009&mdash;things may have
+become outdated since then.</p>
+
+<h2>Vim &ndash; starting from scratch</h2>
+
+<p>
+  As part of my internship at <a title="Open Systems AG"
+  href="http://www.open.ch/">Open Systems</a>, I had to develop on linux boxes
+  without graphical user interface. I had therefore to setup an appropriate
+  development workflow, whose central piece was, of course, the editor. After
+  seeing a colleague performing some "magic" in <a
+  href="http://en.wikipedia.org/wiki/Vim_%28text_editor%29">Vim</a>, I decided
+  that this was going to be my editor of choice. As I litterally started from
+  zero, I thought it would be nice to share the resources that I found the most
+  useful in learning Vim, and this is what this blog post is about.
+</p>
+
+<p>
+  First, some very basic notes on command line text editors. Vim (Vi IMproved)
+  is, as its name suggests, the descendent of an editor called Vi.  From what
+  I've understood, Vi is no more in use nowadays, and Vim offers great
+  improvements (e.g. redo something you undid) over Vi. There is a famous
+  rivalry between Vim and <a
+  href="http://en.wikipedia.org/wiki/Emacs">Emacs</a>, a competing editor, which
+  I haven't tried, but which might be an interesting alternative. I have to say,
+  Vim is <strong>not intuitive</strong> for absolute beginners: you can't just
+  fire it up and expect to be able to edit your file. If you want a very simple
+  and easy to use text editor, I can think of <a
+  href="http://en.wikipedia.org/wiki/Nano_%28text_editor%29">nano</a> (a pico
+  clone), which is far more intuitive than Vim.
+</p>
+
+<p>
+  Vim has a steep learning curve, but once you're acquainted with it, you'll
+  find that the commands aren't difficult to remember, and it will save you a
+  ton of text edition time. Another advantage is its wide deployment. It is, as
+  far as I know, a more or less standard tool in every POSIX-compliant operating
+  system &ndash; including, for example, Mac OS X.
+</p>
+
+<p>
+  The most important thing to get at the beginning: Vim is a <em>modal</em>
+  editor, where the two "most important" modes are
+</p>
+
+<ol>
+  <li><em>command mode</em>: this is the "default" mode, the one you are in when
+    you start Vim. It is the mode where you can the most effectively view and
+    manipulate the document.</li>
+  <li><em>insert mode</em>: where you actually can type some text! Switch to
+    insert mode by pressing <code>i</code> from the command mode. Return to
+    command mode by hitting <code>ESC</code></li>
+</ol>
+
+<p>
+  <strong>A very deconcerting error</strong>, and certainly one you'll make when
+  you start (I can't count how many times this happened to me) is to start
+  typing something while in command mode. As nearly every key is associated to a
+  command in this mode, this triggers a pseudo random batch of commands, and you
+  will be totally lost! So beware, and learn to use undo (described below)
+</p>
+
+<p>
+  Here are the very, very few basic commands you need to know to get your head
+  out of the water. You can open a file by typing <code>vim file_name</code>.
+  Once you're in Vim (in command mode):
+</p>
+
+<ul>
+  <li><code>:q</code> exits the program</li>
+  <li><code>:q!</code> exits the program and discards changes</li>
+  <li><code>:w</code> saves the file</li> <li><code>ESC</code> exits from insert
+    mode and switches to command mode</li>
+  <li><code>i</code> switches to insert mode (you can then type some text)</li>
+  <li><code>u</code> undo</li>
+</ul>
+
+<p>
+  Now here's the list of the resources that helped me the most:
+</p>
+
+<ul>
+  <li><a href="http://www.viemu.com/a-why-vi-vim.html">Why, oh WHY, do those #?@!
+    nutheads use vi?</a> &ndash; an essay which explains the philosophy behind
+    Vi/Vim. This is the article that convinced me to try it.</li>
+  <li>in your
+    terminal, type <code>vimtutor</code> &ndash; it launches an interactive Vim
+    tutorial, and it is an absolute MUST!</li>
+  <li>
+    <a
+    href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/">Vim
+    Novice Tutorial Videos</a> &ndash; Nice screencasts, might be a little long
+    for some of you, but it's fun and requires zero previous knowledge.</li>
+  <li><a href="http://vim.wikia.com/wiki/Vim_Tips_Wiki">Vim Tips Wiki</a>
+    &ndash; One of my favorite Vim resource. It contains an impressive amount of
+    information, in the form of a wiki.</li>
+  <li><a
+    href="http://vim.runpaint.org/">Vim Recipes</a> &ndash; These "recipes"
+    offer a result-oriented approach to Vim. It's like a giant FAQ. It answers
+    questions in the form "How do I navigate between files", "How can I search /
+    replace text?", etc&#8230;</li>
+  <li><a
+    href="http://lucumr.pocoo.org/2007/4/2/vim-as-development-environment">Vim
+    as Development Environment</a> &ndash; A programmer explains how he sets up
+    Vim (with topics such as syntax highlighting, &#8230;).</li>
+  <li><a
+    href="http://jmcpherson.org/windows.html">Splits and multi-file editing</a>
+    &ndash; having several files open side by side was one of my primary needs.
+    This explains how to do it.</li>
+  <li><a
+    href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">Graphical
+    vi-vim Cheat Sheet and Tutorial</a> &ndash; I love nice cheat sheets. This
+    one is certainly one of the nicest you can find for Vim.</li>
+  <li><a
+    href="http://users.physik.fu-berlin.de/~goerz/blog/refcards/#vim">Michael
+    Goerz's Refcard</a> &ndash; Another cheat sheet. Not really for beginners,
+    but a good reference once you are already experienced.</li>
+</ul>
+{% endblock %}
