@@ -15,6 +15,11 @@ def projects():
     return render_template('projects.html', home_link=True)
 
 
+@app.route('/vim')
+def vim():
+    return render_template('vim.html', home_link=True)
+
+
 @app.route('/arb')
 def ref_assignments():
     return redirect('http://www.football.ch/fr/SFV/SFV-Service/Schiedsrichter/'

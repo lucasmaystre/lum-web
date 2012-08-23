@@ -61,6 +61,14 @@ ul {
   list-style-type: square;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
+code {
+  font-family: monospace;
+}
+
 ul#nav {
   margin: 0.5em 0 0 0;
   padding: 0;
