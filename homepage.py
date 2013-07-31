@@ -28,8 +28,7 @@ def lama():
 
 @app.route('/arb')
 def ref_assignments():
-    return redirect('http://www.football.ch/fr/SFV/SFV-Service/Schiedsrichter/'
-                    'Recherche-darbitres.aspx/v-1191/sr-588481/')
+    return redirect('https://www.clubcorner.ch/')
 
 
 if __name__ == '__main__':
