@@ -6,9 +6,13 @@ Other palettes:
 - http://www.colourlovers.com/palette/154405/Ladbrokes
 - http://www.colourlovers.com/palette/132637/Odd_but_trendy
 */
+
+@media all { html {font-size: 18px;} }
+@media all and (max-width:600px) { html {font-size: 16px;} }
+@media all and (max-width:400px) { html {font-size: 14px;} }
+
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
   text-align: justify;
 }
 
