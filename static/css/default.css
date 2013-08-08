@@ -13,7 +13,7 @@ Other palettes:
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 sup {
