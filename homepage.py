@@ -31,5 +31,10 @@ def ref_assignments():
     return redirect('https://www.clubcorner.ch/')
 
 
+@app.route('/nips15')
+def nips15():
+    return render_template('nips15.html', home_link=True)
+
+
 if __name__ == '__main__':
     app.run()
