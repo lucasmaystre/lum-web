@@ -20,12 +20,6 @@ def vim():
     return render_template('vim.html', home_link=True)
 
 
-@app.route('/lama')
-def lama():
-    """Grooveshark widget with music discovered through LAMA project."""
-    return render_template('lama.html')
-
-
 @app.route('/arb')
 def ref_assignments():
     return redirect('https://www.clubcorner.ch/')
