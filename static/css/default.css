@@ -115,6 +115,35 @@ div#description img {
   margin: 0 1em 0 0;
 }
 
+div.homebox {
+  background-color: #F1EFE6;
+  padding: 0 0.7em;
+}
+
+div.homebox p {
+  font-size: 125%;
+  padding: 1em 0;
+  margin: 0;
+}
+
+/* Inspired from http://alistapart.com/article/taminglists/. */
+div.social p { display: inline; }
+div.social ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  white-space:nowrap;
+}
+div.social li {
+  display: inline;
+  border-bottom: 1px solid #CFCFCF;
+  border-right: 1px solid #CFCFCF;
+  background-color: #EDEDED;
+  padding: 0.2em 0.4em;
+  margin-left: 0.2em;
+}
+
+
 div.highlight {
   background-color: #F1EFE6;
   padding: 0.7em;
@@ -133,20 +162,16 @@ div.highlight p {
 }
 
 span.interest {
-  border-bottom: 1px solid #CFCFCF;
-  background-color: #EDEDED;
-  padding: 0 0.2em;
+  color: red;
 }
 
 /* Inspired from http://alistapart.com/article/taminglists/. */
 div.publication { clear: both; }
 div.publication p { display: inline; }
 div.publication ul {
-  display: inline;
-  margin: 0 0 0 0.5em;
+  margin: 0;
   padding: 0;
   font-variant: small-caps;
-  white-space:nowrap;
 }
 div.publication li {
   display: inline;
@@ -158,4 +183,10 @@ div.publication li.first {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+div.publist {
+  border-top: 1px solid #D7D5CD;
+  margin-top: 0.7em;
+  padding-top: 0.7em;
 }
