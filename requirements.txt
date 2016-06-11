@@ -3,3 +3,4 @@ Jinja2==2.7.3
 Werkzeug==0.10.4
 gunicorn
 wsgiref
+requests

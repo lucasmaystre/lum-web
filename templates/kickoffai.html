@@ -1,0 +1,36 @@
+{% extends "canvas.html" %}
+{% block title %}Kickoff.ai API - lucas.maystre.ch{% endblock %}
+{% block content %}
+
+{% if res %}
+<div class="highlight">
+  <p><strong>{{ res.status_code }}</strong>
+  {{res.text}}
+  </p>
+</div>
+{% endif %}
+
+<form method="post">
+<table>
+  <tr>
+    <td>Game ID:</td>
+    <td><input type="text" name="gameId" value="{{ request.form['gameId'] }}" /></td>
+  </tr>
+  <tr>
+    <td>Score home:</td>
+    <td><input type="text" name="scoreHome" value="{{ request.form['scoreHome'] }}" /></td>
+  </tr>
+  <tr>
+    <td>Score away:</td>
+    <td><input type="text" name="scoreAway" value="{{ request.form['scoreAway'] }}"/></td>
+  </tr>
+  <tr>
+    <td>API key:</td>
+    <td><input type="text" name="apiKey" value="{{ request.form['apiKey'] }}" /></td>
+  </tr>
+</table>
+  <input type="hidden" name="submitted" value="1" />
+  <button type="submit">update</button>
+</form>
+
+{% endblock %}
