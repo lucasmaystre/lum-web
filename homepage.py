@@ -41,6 +41,8 @@ def kickoff_ai():
             'gameId': int(request.form['gameId']),
             'scoreHome': int(request.form['scoreHome']),
             'scoreAway': int(request.form['scoreAway']),
+            'scoreHomeEt': request.form['scoreHomeEt'],
+            'scoreAwayEt': request.form['scoreAwayEt'],
         }
         headers = {'x-api-key': request.form['apiKey']}
         res = requests.post(url, headers=headers, data=json.dumps(payload))
