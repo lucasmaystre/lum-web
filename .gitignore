@@ -1,4 +1,2 @@
-/venv
-*.pyc
-.DS_Store
-*.swp
+no-commit/
+_site/

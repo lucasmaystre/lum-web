@@ -1,0 +1,40 @@
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  border-bottom: 0.15rem solid #F42B17;
+  padding-bottom: 0.5rem;
+}
+
+nav.nav {
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+nav.nav > a {
+  display: block;
+  padding-right: 1em;
+}
+
+#my-footer {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  background-color: #f7f7f7;
+}
+
+mark.venue {
+  margin-right: 0.5em;
+}
+
+img#profile-pic {
+  margin-bottom: 1rem;
+}
+
+.home-item {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 1px rgba(0,0,0,.125) solid;
+}
+ol#news {
+  list-style-type: none;
+  padding: 0;
+}
