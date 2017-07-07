@@ -5,8 +5,45 @@ lastedit: 2017-06-12
 title: GIFGIF Data
 ---
 
-<p>
-<a
-href="https://s3-eu-west-1.amazonaws.com/lum-public/gifgif-dataset-20150121-v1.csv">Download
-the raw data</a>. More information will follow soon!
+<p><a href="http://www.gif.gf/">GIFGIF</a> is a project from the MIT Media Lab
+which aims at understanding the emotional content of animated GIF images.
+Visitors on the web site are faced with two images and a question of the form:
+<em>Which image better expresses happiness (pride / fear / ...)?</em> In
+total, 17 different emotions are covered.
 </p>
+
+<p>
+<img src="/img/gifgif-data/hXVmUL3DV3gZy.gif" class="img-fluid" alt="Example image from the dataset." />
+</p>
+
+<p>A dataset of pairwise comparison outcomes was graciously provided by the <a
+href="http://www.gif.gf/about">GIFGIF team</a>. It consists of <strong>2.7+
+million</strong> pairwise comparisons over <strong>6170</strong> animated GIFS,
+and consists of all the data until January 21<sup>st</sup>, 2015.
+</p>
+
+<ul>
+<li><a
+href="https://s3-eu-west-1.amazonaws.com/lum-public/gifgif-dataset-20150121-v1.csv.gz">Dataset,
+version 1</a> (CSV compressed with <code>gzip</code>, 52.2 MiB)
+<li><a
+href="https://s3-eu-west-1.amazonaws.com/lum-public/gifgif-images-v1.tar">GIF
+images, version 1</a> (TAR archive, 5.3 GiB)
+</ul>
+
+<p>
+You might also be interested in <a
+href="https://github.com/lucasmaystre/choix/blob/master/notebooks/gifgif-dataset.ipynb">this
+Jupyter notebook</a> which illustrates how to read and process the CSV file.
+Finally, note that this dataset was used in the following paper:
+</p>
+
+<div class="paper">
+  <mark class="venue">ICML 2017</mark>
+  Lucas Maystre, Matthias Grossglauser<br>
+  <strong>Just Sort It! A Simple and Effective Approach to Active Preference
+  Learning</strong><br>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="https://arxiv.org/abs/1502.05556">arXiv</a></li>
+  </ul>
+</div>
