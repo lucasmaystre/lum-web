@@ -3,3 +3,4 @@ timezone: Europe/Zurich
 exclude:
   - no-commit
   - README.md
+  - doc
