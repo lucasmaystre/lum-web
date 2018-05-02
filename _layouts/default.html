@@ -12,11 +12,18 @@
   <link rel="openid2.local_id"
       href="https://openid.stackexchange.com/user/1f326079-da47-43c9-81f9-e7dab763d3fd">
   
-  {% if page.title %}
+  {% if page.title -%}
   <title>{{ page.title }} &mdash; Lucas Maystre</title>
-  {% else %}
+  {%- else -%}
   <title>Lucas Maystre &mdash; papers, projects, code, etc.</title>
-  {% endif %}
+  {%- endif %}
+
+  {% if page.mathjax -%}
+  <!-- MathJax -->
+  <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  {%- endif %}
 
   <!-- Google Analytics -->
   <script>
