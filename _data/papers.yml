@@ -1,0 +1,73 @@
+maystre2017choicerank:
+  venue: ICML 2017
+  title: "ChoiceRank: Identifying Preferences from Node Traffic in Networks"
+  authors: Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: http://proceedings.mlr.press/v70/maystre17b.html
+    arXiv: https://arxiv.org/abs/1610.06525
+    code: https://github.com/lucasmaystre/choicerank
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/slides-choicerank.pdf
+    poster: https://s3-eu-west-1.amazonaws.com/lum-public/poster-choicerank.pdf
+
+maystre2017just:
+  venue: ICML 2017
+  title: Just Sort It! A Simple and Effective Approach to Active Preference Learning
+  authors: Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: http://proceedings.mlr.press/v70/maystre17a.html
+    arXiv: https://arxiv.org/abs/1502.05556
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/slides-robustsort.pdf
+    poster: https://s3-eu-west-1.amazonaws.com/lum-public/poster-robustsort.pdf
+
+ko2016collaborative:
+  venue: ACML 2016
+  title: Collaborative Recurrent Neural Networks for Dynamic Recommender Systems
+  authors: Young-Jun Ko, Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: http://proceedings.mlr.press/v63/ko101.html
+    code: https://github.com/lca4/collaborative-rnn
+
+maystre2015fast:
+  venue: NIPS 2015
+  title: Fast and Accurate Inference of Plackett–Luce Models
+  authors: Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: http://papers.nips.cc/paper/5681-fast-and-accurate-inference-of-plackettluce-models
+    reviews: http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips28/reviews/88.html
+    code: https://github.com/lucasmaystre/choix
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/fastinference-slides.pdf
+
+yardim2018can:
+  year: 2018
+  title: Can Who-Edits-What Predict Edit Survival?
+  authors: Ali Batuhan Yardım, Victor Kristof, Lucas Maystre, Matthias Grossglauser
+  links:
+    arXiv: https://arxiv.org/abs/1801.04159
+
+maystre2016player:
+  year: 2016
+  title: "The Player Kernel: Learning Team Strengths Based on Implicit Player Contributions"
+  authors: Lucas Maystre, Victor Kristof, Antonio J. González Ferrer, Matthias Grossglauser
+  links:
+    arXiv: https://arxiv.org/abs/1609.01176
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/playerkern-slides.pdf
+    kickoff.ai: http://kickoff.ai/
+
+kafsi2013mitigating:
+  year: 2013
+  title: Mitigating Epidemics through Mobile Micro-measures
+  authors: Mohamed Kafsi, Ehsan Kazemi, Lucas Maystre, Lyudmila Yartseva, Matthias Grossglauser, Patrick Thiran
+  links:
+    arXiv: https://arxiv.org/abs/1307.2084
+    poster: https://s3-eu-west-1.amazonaws.com/lum-public/poster-d4d.pdf
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/m3-netmob.pdf
+    video: http://www.youtube.com/watch?v=qC9H6eR0vcY
+
+maystre2012music:
+  year: 2012
+  title: Music Recommendation to Groups
+  authors: Lucas Maystre
+  links:
+    infoscience: http://infoscience.epfl.ch/record/183559
+    poster: https://s3-eu-west-1.amazonaws.com/lum-public/poster-groupstreamer.pdf
+    code: https://github.com/lca4
