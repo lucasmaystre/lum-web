@@ -38,11 +38,12 @@ maystre2015fast:
     slides: https://s3-eu-west-1.amazonaws.com/lum-public/fastinference-slides.pdf
 
 yardim2018can:
-  year: 2018
+  venue: KDD 2018
   title: Can Who-Edits-What Predict Edit Survival?
   authors: Ali Batuhan Yardım, Victor Kristof, Lucas Maystre, Matthias Grossglauser
   links:
     arXiv: https://arxiv.org/abs/1801.04159
+    code: https://github.com/lca4/interank
 
 maystre2016player:
   year: 2016

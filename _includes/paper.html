@@ -1,5 +1,5 @@
 {% assign entry = site.data.papers[include.key] %}
-<div class="paper">
+<div class="paper" id="{{ include.key }}">
   {% if entry["venue"] %}<mark class="venue">{{ entry["venue"] }}</mark>{% endif %}
   {% if entry["year"] %}<small class="text-muted">{{ entry["year"] }}</small>{% endif %}
   {{ entry["authors"] }}<br>
