@@ -1,7 +1,7 @@
 ---
 layout: default
 linkhome: yes
-lastedit: 2018-05-10
+lastedit: 2018-06-18
 title: Papers
 ---
 
@@ -15,8 +15,9 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 {% include paper.html key="ko2016collaborative" %}
 {% include paper.html key="maystre2015fast" %}
 
-Working papers and technical reports.
+Theses, working papers and technical reports.
 
+{% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2016player" %}
 {% include paper.html key="kafsi2013mitigating" %}
 {% include paper.html key="maystre2012music" %}

@@ -1,3 +1,11 @@
+maystre2018efficient:
+  year: 2018
+  title: "Efficient Learning from Comparisons"
+  authors: Lucas Maystre
+  links:
+    full text: https://infoscience.epfl.ch/record/255399
+    code: https://github.com/lucasmaystre/phd-thesis
+
 maystre2017choicerank:
   venue: ICML 2017
   title: "ChoiceRank: Identifying Preferences from Node Traffic in Networks"
