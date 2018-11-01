@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<p>
+This page contains brief summaries of selected topics in ML research.
+It is mostly a way for me to review and digest ideas that I find particularly interesting.
+In each snippet, I try to recap the problem &amp; the key insights in the proposed solution.
+Note that this page reflects my limited understanding of these topics; I am *not* an expert in most (all?) of these.
+If you disagree with anything I wrote here, I would be thankful if you could <a href="mailto:lucas@maystre.ch">let me know</a>.
+</p>
+
+{% for post in site.posts %}
+  <h3>{{ post.title }}</h3>
+  <p><small class="text-muted">Added on {{ post.date | date: "%Y-%m-%d" }}</small></p>
+  <div class="row">
+    <div class="col-lg-8">
+      {{ post.content }}
+    </div>
+    <div class="col-lg-4">
+      {% if post.title %}
+        <ul>
+          {% for ref in post.references %}
+            <li>{{ref.author}}, <a href="{{ref.url}}">{{ref.title}}</a> ({{ref.year}}).</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
