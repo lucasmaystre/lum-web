@@ -1,3 +1,10 @@
+maystre2019pairwise:
+  year: 2019
+  title: "Linear-Time Inference for Pairwise Comparisons with Gaussian-Process Dynamics"
+  authors: Lucas Maystre, Victor Kristof, Matthias Grossglauser
+  links:
+    arXiv: https://arxiv.org/abs/1903.07746
+
 maystre2018efficient:
   year: 2018
   title: "Efficient Learning from Comparisons"
