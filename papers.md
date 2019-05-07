@@ -9,6 +9,7 @@ I strive to make my papers and the corresponding code easily accessible. If you
 cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
+{% include paper.html key="maystre2019pairwise" %}
 {% include paper.html key="yardim2018can" %}
 {% include paper.html key="maystre2017just" %}
 {% include paper.html key="maystre2017choicerank" %}
@@ -17,7 +18,6 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 
 Theses, working papers and technical reports.
 
-{% include paper.html key="maystre2019pairwise" %}
 {% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2016player" %}
 {% include paper.html key="kafsi2013mitigating" %}
