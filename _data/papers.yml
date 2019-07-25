@@ -1,3 +1,10 @@
+chumbalov2019learning:
+  year: 2019
+  title: Learning to Search Efficiently Using Comparisons
+  authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
+  links:
+    arXiv: https://arxiv.org/abs/1905.05049
+
 maystre2019pairwise:
   venue: KDD 2019
   title: "Pairwise Comparisons with Flexible Time-Dynamics"
