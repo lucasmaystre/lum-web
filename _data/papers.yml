@@ -11,6 +11,8 @@ maystre2019pairwise:
   authors: Lucas Maystre, Victor Kristof, Matthias Grossglauser
   links:
     arXiv: https://arxiv.org/abs/1903.07746
+    code: https://github.com/lucasmaystre/kickscore-kdd19
+    data: https://zenodo.org/record/3351648
 
 maystre2018efficient:
   year: 2018
