@@ -13,6 +13,8 @@ maystre2019pairwise:
     arXiv: https://arxiv.org/abs/1903.07746
     code: https://github.com/lucasmaystre/kickscore-kdd19
     data: https://zenodo.org/record/3351648
+    slides: https://lum-public.s3-eu-west-1.amazonaws.com/kickscore-slides.pdf
+    poster: https://lum-public.s3-eu-west-1.amazonaws.com/kickscore-poster.pdf
 
 maystre2018efficient:
   year: 2018
