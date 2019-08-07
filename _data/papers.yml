@@ -10,6 +10,7 @@ maystre2019pairwise:
   title: "Pairwise Comparisons with Flexible Time-Dynamics"
   authors: Lucas Maystre, Victor Kristof, Matthias Grossglauser
   links:
+    full text: https://dl.acm.org/citation.cfm?id=3330831
     arXiv: https://arxiv.org/abs/1903.07746
     code: https://github.com/lucasmaystre/kickscore-kdd19
     data: https://zenodo.org/record/3351648
