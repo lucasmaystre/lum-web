@@ -1,3 +1,10 @@
+kristof2019user:
+    year: 2019
+    title: A User Study of Perceived Carbon Footprint
+    authors: Victor Kristof, Valentin Quelquejay-Leclère, Robin Zbinden, Lucas Maystre, Matthias Grossglauser, Patrick Thiran
+    links:
+      arXiv: https://arxiv.org/abs/1911.11658
+
 chumbalov2019learning:
   year: 2019
   title: Scalable and Efficient Comparison-based Search without Features

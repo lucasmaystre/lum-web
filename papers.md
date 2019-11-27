@@ -18,6 +18,7 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 
 Theses, working papers and technical reports.
 
+{% include paper.html key="kristof2019user" %}
 {% include paper.html key="chumbalov2019learning" %}
 {% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2016player" %}
