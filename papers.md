@@ -9,6 +9,7 @@ I strive to make my papers and the corresponding code easily accessible. If you
 cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
+{% include paper.html key="anderson2020algorithmic" %}
 {% include paper.html key="maystre2019pairwise" %}
 {% include paper.html key="yardim2018can" %}
 {% include paper.html key="maystre2017just" %}
