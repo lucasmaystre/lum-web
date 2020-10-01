@@ -1,3 +1,11 @@
+hansen2020contextual:
+  venue: RecSys 2020
+  title: Contextual and Sequential User Embeddings for Large-Scale Music Recommendation
+  authors: Casper Hansen, Christian Hansen, Lucas Maystre, Rishabh Mehrotra, Brian Brost, Federico Tomasi, Mounia Lalmas
+  links:
+    full text: https://dl.acm.org/doi/10.1145/3383313.3412248
+    code: https://github.com/spotify-research/cosernn
+
 chumbalov2020scalable:
   venue: ICML 2020
   title: Scalable and Efficient Comparison-based Search without Features
