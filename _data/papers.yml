@@ -11,6 +11,7 @@ chumbalov2020scalable:
   title: Scalable and Efficient Comparison-based Search without Features
   authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
   links:
+    full text: http://proceedings.mlr.press/v119/chumbalov20a.html
     arXiv: https://arxiv.org/abs/1905.05049
 
 anderson2020algorithmic:
@@ -19,6 +20,7 @@ anderson2020algorithmic:
   authors: Ashton Anderson, Lucas Maystre, Rishabh Mehrotra, Ian Anderson, Mounia Lalmas
   links:
     full text: https://dl.acm.org/doi/abs/10.1145/3366423.3380281
+    blog: https://research.atspotify.com/algorithmic-effects-on-the-diversity-of-consumption-on-spotify/
 
 kristof2019user:
   year: 2019
