@@ -1,3 +1,11 @@
+maystre2021collaborative:
+  venue: AISTATS 2021
+  title: Collaborative Classification from Noisy Labels
+  authors: Lucas Maystre, Nagarjuna Kumarappan, Judith Bütepage, Mounia Lalmas
+  links:
+    full text: http://proceedings.mlr.press/v130/maystre21a.html
+    code: https://github.com/spotify-research/collabclass
+
 hansen2020contextual:
   venue: RecSys 2020
   title: Contextual and Sequential User Embeddings for Large-Scale Music Recommendation
