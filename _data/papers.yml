@@ -1,11 +1,30 @@
+butepage2021gaussian:
+  venue: ECML-PKDD 2021
+  title: "Gaussian Process Encoders: VAEs with Reliable Latent-Space Uncertainty"
+  authors: Judith Bütepage, Lucas Maystre, Mounia Lalmas
+  links:
+    full text: https://doi.org/10.1007/978-3-030-86520-7_6
+    alt pdf: https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_237.pdf
+    video: https://slideslive.com/38963564/gaussian-process-encoders-vaes-with-reliable-latentspace-uncertainty
+
+sanna2021where:
+  venue: WWW 2021
+  title: Where To Next? A Dynamic Model of User Preferences
+  authors: Francesco Sanna Passino, Lucas Maystre, Dmitrii Moor, Ashton Anderson, Mounia Lalmas
+  links:
+    full text: https://doi.org/10.1145/3442381.3450028
+    alt pdf: https://www.cs.toronto.edu/~ashton/pubs/spotify-ptm-www2021.pdf
+    blog: https://research.atspotify.com/finding-structure-in-users-evolving-listening-preferences/
+
 maystre2021collaborative:
   venue: AISTATS 2021
   title: Collaborative Classification from Noisy Labels
   authors: Lucas Maystre, Nagarjuna Kumarappan, Judith Bütepage, Mounia Lalmas
   links:
     full text: http://proceedings.mlr.press/v130/maystre21a.html
+    video: https://papertalk.org/papertalks/27663
     code: https://github.com/spotify-research/collabclass
-    blog: https://research.atspotify.com/publications/collaborative-classification-from-noisy-labels/
+    blog: https://research.atspotify.com/collaborative-classification-from-noisy-labels/
 
 hansen2020contextual:
   venue: RecSys 2020
@@ -14,6 +33,7 @@ hansen2020contextual:
   links:
     full text: https://dl.acm.org/doi/10.1145/3383313.3412248
     code: https://github.com/spotify-research/cosernn
+    blog: https://research.atspotify.com/contextual-and-sequential-user-embeddings-for-music-recommendation/
 
 chumbalov2020scalable:
   venue: ICML 2020
@@ -28,7 +48,7 @@ anderson2020algorithmic:
   title: Algorithmic Effects on the Diversity of Consumption on Spotify
   authors: Ashton Anderson, Lucas Maystre, Rishabh Mehrotra, Ian Anderson, Mounia Lalmas
   links:
-    full text: https://dl.acm.org/doi/abs/10.1145/3366423.3380281
+    full text: https://doi.org/10.1145/3366423.3380281
     blog: https://research.atspotify.com/algorithmic-effects-on-the-diversity-of-consumption-on-spotify/
 
 kristof2019user:
@@ -58,6 +78,16 @@ maystre2018efficient:
     full text: https://infoscience.epfl.ch/record/255399
     code: https://github.com/lucasmaystre/phd-thesis
     video: https://www.youtube.com/watch?v=v0_2e28tAgs
+
+yardim2018can:
+  venue: KDD 2018
+  title: Can Who-Edits-What Predict Edit Survival?
+  authors: Ali Batuhan Yardım, Victor Kristof, Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: https://doi.org/10.1145/3219819.3219979
+    arXiv: https://arxiv.org/abs/1801.04159
+    code: https://github.com/lca4/interank
+    video: https://www.youtube.com/watch?v=DoAjUOZUfdI
 
 maystre2017choicerank:
   venue: ICML 2017
@@ -89,6 +119,16 @@ ko2016collaborative:
     full text: http://proceedings.mlr.press/v63/ko101.html
     code: https://github.com/lca4/collaborative-rnn
 
+maystre2016player:
+  year: 2016
+  title: "The Player Kernel: Learning Team Strengths Based on Implicit Player Contributions"
+  authors: Lucas Maystre, Victor Kristof, Antonio J. González Ferrer, Matthias Grossglauser
+  links:
+    full text: http://ceur-ws.org/Vol-1842/paper_04.pdf
+    arXiv: https://arxiv.org/abs/1609.01176
+    slides: https://s3-eu-west-1.amazonaws.com/lum-public/playerkern-slides.pdf
+    kickoff.ai: http://kickoff.ai/
+
 maystre2015fast:
   venue: NIPS 2015
   title: Fast and Accurate Inference of Plackett–Luce Models
@@ -98,25 +138,6 @@ maystre2015fast:
     reviews: http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips28/reviews/88.html
     code: https://github.com/lucasmaystre/choix
     slides: https://s3-eu-west-1.amazonaws.com/lum-public/fastinference-slides.pdf
-
-yardim2018can:
-  venue: KDD 2018
-  title: Can Who-Edits-What Predict Edit Survival?
-  authors: Ali Batuhan Yardım, Victor Kristof, Lucas Maystre, Matthias Grossglauser
-  links:
-    full text: https://dl.acm.org/citation.cfm?id=3219979
-    arXiv: https://arxiv.org/abs/1801.04159
-    code: https://github.com/lca4/interank
-    video: https://www.youtube.com/watch?v=DoAjUOZUfdI
-
-maystre2016player:
-  year: 2016
-  title: "The Player Kernel: Learning Team Strengths Based on Implicit Player Contributions"
-  authors: Lucas Maystre, Victor Kristof, Antonio J. González Ferrer, Matthias Grossglauser
-  links:
-    arXiv: https://arxiv.org/abs/1609.01176
-    slides: https://s3-eu-west-1.amazonaws.com/lum-public/playerkern-slides.pdf
-    kickoff.ai: http://kickoff.ai/
 
 kafsi2013mitigating:
   year: 2013
@@ -133,6 +154,6 @@ maystre2012music:
   title: Music Recommendation to Groups
   authors: Lucas Maystre
   links:
-    infoscience: http://infoscience.epfl.ch/record/183559
+    full text: http://infoscience.epfl.ch/record/183559
     poster: https://s3-eu-west-1.amazonaws.com/lum-public/poster-groupstreamer.pdf
     code: https://github.com/lca4
