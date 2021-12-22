@@ -32,7 +32,8 @@ hansen2020contextual:
   title: Contextual and Sequential User Embeddings for Large-Scale Music Recommendation
   authors: Casper Hansen, Christian Hansen, Lucas Maystre, Rishabh Mehrotra, Brian Brost, Federico Tomasi, Mounia Lalmas
   links:
-    full text: https://dl.acm.org/doi/10.1145/3383313.3412248
+    # https://doi.org/10.1145/3383313.3412248
+    full text: https://dl.acm.org/doi/10.1145/3383313.3412248?cid=99659048714
     code: https://github.com/spotify-research/cosernn
     blog: https://research.atspotify.com/contextual-and-sequential-user-embeddings-for-music-recommendation/
 
@@ -49,7 +50,8 @@ anderson2020algorithmic:
   title: Algorithmic Effects on the Diversity of Consumption on Spotify
   authors: Ashton Anderson, Lucas Maystre, Rishabh Mehrotra, Ian Anderson, Mounia Lalmas
   links:
-    full text: https://doi.org/10.1145/3366423.3380281
+    # https://doi.org/10.1145/3366423.3380281
+    full text: https://dl.acm.org/doi/10.1145/3366423.3380281?cid=99659048714
     blog: https://research.atspotify.com/algorithmic-effects-on-the-diversity-of-consumption-on-spotify/
 
 kristof2019user:
@@ -64,7 +66,8 @@ maystre2019pairwise:
   title: "Pairwise Comparisons with Flexible Time-Dynamics"
   authors: Lucas Maystre, Victor Kristof, Matthias Grossglauser
   links:
-    full text: https://dl.acm.org/citation.cfm?id=3330831
+    # https://doi.org/10.1145/3292500.3330831
+    full text: https://dl.acm.org/doi/10.1145/3292500.3330831?cid=99659048714
     arXiv: https://arxiv.org/abs/1903.07746
     code: https://github.com/lucasmaystre/kickscore-kdd19
     data: https://zenodo.org/record/3351648
@@ -85,7 +88,8 @@ yardim2018can:
   title: Can Who-Edits-What Predict Edit Survival?
   authors: Ali Batuhan Yardım, Victor Kristof, Lucas Maystre, Matthias Grossglauser
   links:
-    full text: https://doi.org/10.1145/3219819.3219979
+    # https://doi.org/10.1145/3219819.3219979
+    full text: https://dl.acm.org/doi/10.1145/3219819.3219979?cid=99659048714
     arXiv: https://arxiv.org/abs/1801.04159
     code: https://github.com/lca4/interank
     video: https://www.youtube.com/watch?v=DoAjUOZUfdI
