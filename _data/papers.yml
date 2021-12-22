@@ -12,7 +12,8 @@ sanna2021where:
   title: Where To Next? A Dynamic Model of User Preferences
   authors: Francesco Sanna Passino, Lucas Maystre, Dmitrii Moor, Ashton Anderson, Mounia Lalmas
   links:
-    full text: https://doi.org/10.1145/3442381.3450028
+    # https://doi.org/10.1145/3442381.3450028
+    full text: https://dl.acm.org/doi/10.1145/3442381.3450028?cid=99659048714
     alt pdf: https://www.cs.toronto.edu/~ashton/pubs/spotify-ptm-www2021.pdf
     blog: https://research.atspotify.com/finding-structure-in-users-evolving-listening-preferences/
 
