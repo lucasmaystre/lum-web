@@ -30,5 +30,12 @@ Theses, working papers and technical reports.
 {% include paper.html key="kafsi2013mitigating" %}
 {% include paper.html key="maystre2012music" %}
 
+As part of the [GI thesis prize][3], the introduction of my PhD thesis was
+translated into German and published in the book _Ausgezeichnete
+Informatikdissertationen 2018_.
+
+{% include paper.html key="maystre2019effizientes" %}
+
 [1]: mailto:lucas@maystre.ch
 [2]: https://scholar.google.ch/citations?user=tZ5vogwAAAAJ
+[3]: https://gi.de/dissertationspreis
