@@ -1,3 +1,17 @@
+maystre2022multistate:
+  venue: UAI 2022
+  title: "Multistate Analysis with Infinite Mixtures of Markov Chains"
+  authors: Lucas Maystre, Tiffany Wu, Roberto Sanchis Ojeda, Tony Jebara
+  links:
+    temporary link: https://openreview.net/pdf?id=Buddj8Ijcl9
+
+chandar2022using:
+  venue: WWW 2022
+  title: "Using Survival Models to Estimate User Engagement in Online Experiments"
+  authors: Praveen Chandar, Brian St. Thomas, Lucas Maystre, Vijay Pappu, Roberto Sanchis-Ojeda, Tiffany Wu, Ben Carterette, Mounia Lalmas, Tony Jebara
+  links:
+    full text: https://dl.acm.org/doi/10.1145/3485447.3512038?cid=99659048714
+
 butepage2021gaussian:
   venue: ECML-PKDD 2021
   title: "Gaussian Process Encoders: VAEs with Reliable Latent-Space Uncertainty"
