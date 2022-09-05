@@ -10,6 +10,7 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
 {% include paper.html key="maystre2022multistate" %}
+{% include paper.html key="mok2022dynamics" %}
 {% include paper.html key="chandar2022using" %}
 {% include paper.html key="butepage2021gaussian" %}
 {% include paper.html key="sanna2021where" %}

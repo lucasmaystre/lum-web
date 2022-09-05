@@ -3,7 +3,16 @@ maystre2022multistate:
   title: "Multistate Analysis with Infinite Mixtures of Markov Chains"
   authors: Lucas Maystre, Tiffany Wu, Roberto Sanchis Ojeda, Tony Jebara
   links:
-    temporary link: https://openreview.net/pdf?id=Buddj8Ijcl9
+    full text: https://proceedings.mlr.press/v180/maystre22a.html
+    code: https://github.com/spotify-research/mixmarkov
+
+mok2022dynamics:
+  venue: ICWSM 2022
+  title: "The Dynamics of Exploration on Spotify"
+  authors: Lillio Mok, Samuel F. Way, Lucas Maystre, Ashton Anderson
+  links:
+    full text: https://ojs.aaai.org/index.php/ICWSM/article/view/19324
+    blog: https://research.atspotify.com/the-dynamics-of-exploration-on-spotify/
 
 chandar2022using:
   venue: WWW 2022
