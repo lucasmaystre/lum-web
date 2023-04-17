@@ -1,9 +1,30 @@
+vangoffrier2023estimating:
+  venue: CLeaR 2023
+  title: "Estimating long-term causal effects from short-term experiments and
+      long-term observational data with unobserved confounding"
+  authors: Graham Van Goffrier, Lucas Maystre, Ciarán Gilligan-Lee
+  links:
+    arXiv: https://arxiv.org/abs/2302.10625
+    blog: https://research.atspotify.com/2023/04/estimating-long-term-effects-when-only-short-run-experiments-are-available/
+
+maystre2023optimizing:
+  year: 2023
+  title: "Optimizing Audio Recommendations for the Long-Term:
+      A Reinforcement Learning Perspective"
+  authors: Lucas Maystre, Daniel Russo, Yu Zhao
+  links:
+    arXiv: https://arxiv.org/abs/2302.03561
+    video: https://slideslive.com/38993553/optimizing-audio-recommendations-for-the-longterm?ref=speaker-24130
+
 maystre2022temporally:
   venue: NeurIPS 2022
   title: "Temporally-Consistent Survival Analysis"
   authors: Lucas Maystre, Daniel Russo
   links:
-    temporary link: https://nips.cc/Conferences/2022/Schedule?showEvent=54065
+    full text: https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html
+    video: https://slideslive.com/38991142/temporallyconsistent-survival-analysis?ref=recommended
+    code: https://github.com/spotify-research/tdsurv
+    blog: https://research.atspotify.com/2022/11/survival-analysis-meets-reinforcement-learning/
 
 maystre2022multistate:
   venue: UAI 2022

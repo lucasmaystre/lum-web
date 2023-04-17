@@ -1,7 +1,7 @@
 ---
 layout: default
 linkhome: yes
-lastedit: 2022-09-20
+lastedit: 2023-04-17
 title: Papers
 ---
 
@@ -9,6 +9,7 @@ I strive to make my papers and the corresponding code easily accessible. If you
 cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
+{% include paper.html key="vangoffrier2023estimating" %}
 {% include paper.html key="maystre2022temporally" %}
 {% include paper.html key="maystre2022multistate" %}
 {% include paper.html key="mok2022dynamics" %}
@@ -28,6 +29,7 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 
 Theses, working papers and technical reports.
 
+{% include paper.html key="maystre2023optimizing" %}
 {% include paper.html key="kristof2019user" %}
 {% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2016player" %}
