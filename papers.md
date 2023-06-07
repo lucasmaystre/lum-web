@@ -9,6 +9,7 @@ I strive to make my papers and the corresponding code easily accessible. If you
 cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
+{% include paper.html key="mcdonald2023impatient" %}
 {% include paper.html key="vangoffrier2023estimating" %}
 {% include paper.html key="maystre2022temporally" %}
 {% include paper.html key="maystre2022multistate" %}

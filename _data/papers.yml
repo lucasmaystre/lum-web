@@ -1,3 +1,11 @@
+mcdonald2023impatient:
+  venue: KDD 2023
+  title: "Impatient Bandits: Optimizing Recommendations for the Long-Term
+      Without Delay"
+  authors: Thomas M. McDonald, Lucas Maystre, Mounia Lalmas, Daniel Russo, Kamil Ciosek
+  links:
+    coming soon: \#
+
 vangoffrier2023estimating:
   venue: CLeaR 2023
   title: "Estimating long-term causal effects from short-term experiments and
