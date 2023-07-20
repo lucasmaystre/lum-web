@@ -1,6 +1,7 @@
 mcdonald2023impatient:
   venue: KDD 2023
-  title: "Impatient Bandits: Optimizing for the Long-Term Without Delay"
+  title: "Impatient Bandits: Optimizing Recommendations for the Long-Term
+      Without Delay"
   authors: Thomas McDonald, Lucas Maystre, Mounia Lalmas, Daniel Russo, Kamil Ciosek
   links:
     arXiv: https://arxiv.org/abs/2307.09943
