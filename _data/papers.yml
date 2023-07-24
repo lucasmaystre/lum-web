@@ -5,6 +5,7 @@ mcdonald2023impatient:
   authors: Thomas McDonald, Lucas Maystre, Mounia Lalmas, Daniel Russo, Kamil Ciosek
   links:
     arXiv: https://arxiv.org/abs/2307.09943
+    blog: https://research.atspotify.com/2023/07/optimizing-for-the-long-term-without-delay/
     code: https://github.com/spotify-research/impatient-bandits
 
 vangoffrier2023estimating:
