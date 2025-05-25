@@ -1,7 +1,7 @@
 ---
 layout: default
 linkhome: yes
-lastedit: 2023-06-08
+lastedit: 2025-05-25
 title: Papers
 ---
 
@@ -9,6 +9,13 @@ I strive to make my papers and the corresponding code easily accessible. If you
 cannot find something, please [drop me a line][1]. Note that I also maintain a
 [Google scholar][2] page.
 
+{% include paper.html key="maystre2025incremental" %}
+{% include paper.html key="zhang2025impatient" %}
+{% include paper.html key="dolga2024latte" %}
+{% include paper.html key="chumbalov2024fast" %}
+{% include paper.html key="felicioni2024uncertainty" %}
+{% include paper.html key="baran2023accelerating" %}
+{% include paper.html key="maystre2023optimizing" %}
 {% include paper.html key="mcdonald2023impatient" %}
 {% include paper.html key="vangoffrier2023estimating" %}
 {% include paper.html key="maystre2022temporally" %}
@@ -21,19 +28,15 @@ cannot find something, please [drop me a line][1]. Note that I also maintain a
 {% include paper.html key="hansen2020contextual" %}
 {% include paper.html key="chumbalov2020scalable" %}
 {% include paper.html key="anderson2020algorithmic" %}
+{% include paper.html key="kristof2019user" %}
 {% include paper.html key="maystre2019pairwise" %}
 {% include paper.html key="yardim2018can" %}
+{% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2017just" %}
 {% include paper.html key="maystre2017choicerank" %}
 {% include paper.html key="ko2016collaborative" %}
-{% include paper.html key="maystre2015fast" %}
-
-Theses, working papers and technical reports.
-
-{% include paper.html key="maystre2023optimizing" %}
-{% include paper.html key="kristof2019user" %}
-{% include paper.html key="maystre2018efficient" %}
 {% include paper.html key="maystre2016player" %}
+{% include paper.html key="maystre2015fast" %}
 {% include paper.html key="kafsi2013mitigating" %}
 {% include paper.html key="maystre2012music" %}
 

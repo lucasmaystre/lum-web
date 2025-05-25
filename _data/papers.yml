@@ -1,3 +1,48 @@
+maystre2025incremental:
+  year: 2025
+  title: "Incremental Sequence Classification with Temporal Consistency"
+  authors: Lucas Maystre, Gabriel Barello, Tudor Berariu, Aleix Cambray, Rares Dolga, Alvaro Ortega Gonzalez, Andrei Nica, David Barber
+  links:
+    arXiv: https://arxiv.org/abs/2505.16548
+
+zhang2025impatient:
+  year: 2025
+  title: "Impatient Bandits: Optimizing for the Long-Term Without Delay"
+  authors: Kelly W. Zhang, Thomas Baldwin-McDonald, Kamil Ciosek, Lucas Maystre, Daniel Russo
+  links:
+    arXiv: https://arxiv.org/abs/2501.07761
+
+dolga2024latte:
+  year: 2024
+  title: "Latte: Latent Attention for Linear Time Transformers"
+  authors: Rares Dolga, Lucas Maystre, Marius Cobzarenco, David Barber
+  links:
+    arXiv: https://arxiv.org/abs/2402.17512
+
+chumbalov2024fast:
+  venue: UAI 2024
+  title: "Fast Interactive Search under a Scale-Free Comparison Oracle"
+  authors: Daniyar Chumbalov, Lars Klein, Lucas Maystre, Matthias Grossglauser
+  links:
+    full text: https://proceedings.mlr.press/v244/chumbalov24a.html
+    arXiv: https://arxiv.org/abs/2306.01814
+
+felicioni2024uncertainty:
+  venue: TMLR
+  title: "On the Importance of Uncertainty in Decision-Making with Large Language Models"
+  authors: Nicolò Felicioni, Lucas Maystre, Sina Ghiassian, Kamil Ciosek
+  links:
+    arXiv: https://arxiv.org/abs/2404.02649
+    OpenReview: https://openreview.net/forum?id=YfPzUX6DdO
+
+baran2023accelerating:
+  venue: RecSys 2023
+  title: "Accelerating Creator Audience Building through Centralized Exploration"
+  authors: Buket Baran, Guilherme Dinis Junior, Antonina Danylenko, Olayinka S. Folorunso, Gösta Forsum, Maksym Lefarov, Lucas Maystre, Yu Zhao
+  links:
+    full text: https://dl.acm.org/doi/10.1145/3604915.3608880
+    blog: https://research.atspotify.com/2024/02/accelerating-creator-audience-building-through-centralized-exploration/
+
 mcdonald2023impatient:
   venue: KDD 2023
   title: "Impatient Bandits: Optimizing Recommendations for the Long-Term
