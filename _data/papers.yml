@@ -35,6 +35,7 @@ felicioni2024uncertainty:
   links:
     arXiv: https://arxiv.org/abs/2404.02649
     OpenReview: https://openreview.net/forum?id=YfPzUX6DdO
+    code: https://github.com/spotify-research/llm-bandit
 
 baran2023accelerating:
   venue: RecSys 2023
